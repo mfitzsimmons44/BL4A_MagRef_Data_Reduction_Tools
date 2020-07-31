@@ -74,6 +74,13 @@ Advantages of the Jupyter notebook approach to data reduction on BL4A:
 7. Errors propagated through every step
 8. Tab delimited text files of the specular reflectivity
 
-M.R. Fitzsimmons
+An example data set consisting of three histograms (data acquired at three different angles) is included in the distribution.  The data are courtesy of Dr. Ho Nyung Lee (ORNL).
 
-30.07.20
+Work funded by the U.S. Department of Energy under contract No. DE-AC05-00OR22725.
+
+M.R. Fitzsimmons
+31.07.20
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3968838.svg)](https://doi.org/10.5281/zenodo.3968838)
+
+
