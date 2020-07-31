@@ -78,7 +78,7 @@ An example data set consisting of three histograms (data acquired at three diffe
 
 Work funded by the U.S. Department of Energy under contract No. DE-AC05-00OR22725.
 
-M.R. Fitzsimmons
+M.R. Fitzsimmons and T.R. Charlton
 31.07.20
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3968838.svg)](https://doi.org/10.5281/zenodo.3968838)
