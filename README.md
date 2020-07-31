@@ -74,13 +74,21 @@ Advantages of the Jupyter notebook approach to data reduction on BL4A:
 7. Errors propagated through every step
 8. Tab delimited text files of the specular reflectivity
 
-An example data set consisting of three histograms (data acquired at three different angles) is included in the distribution.  The data are courtesy of Dr. Ho Nyung Lee (ORNL).
+An example data set consisting of three histograms (data acquired at three different angles) is included in the distribution. The data are courtesy of Dr. Ho Nyung Lee (ORNL). The example data files are too big for github but are available on zenodo.
 
-Work funded by the U.S. Department of Energy under contract No. DE-AC05-00OR22725.
+Please cite our work.
 
-M.R. Fitzsimmons and T.R. Charlton
+**M.R. Fitzsimmons**** ,** _Code to Qz-bin polarized neutron reflectivity data accounting for Zeeman energy splitting of spin-flip reflection_ (2020)[https://zenodo.org/record/3828984#.XyMIQUl7lZo](https://zenodo.org/record/3828984#.XyMIQUl7lZo)[https://doi.org/10.5281/zenodo.3828984](https://doi.org/10.5281/zenodo.3828984)
+
+**M.R. Fitzsimmons**** ,** _Code to map Xray reflectivity data from real space to reciprocal space_ (2020)[https://zenodo.org/record/3967628#.XyMHd0l7lZo](https://zenodo.org/record/3967628#.XyMHd0l7lZo)[https://doi.org/10.5281/zenodo.3967628](https://doi.org/10.5281/zenodo.3967628)
+
+T.R. Charlton and **M.R. Fitzsimmons**** ,** _Code to obtain single event data from Spallation Neutron Source Beamline-4A (MagRef)_ (2020) [https://zenodo.org/record/3967680#.XyMUDUl7nBU](https://zenodo.org/record/3967680#.XyMUDUl7nBU)[https://doi.org/10.5281/zenodo.3967680](https://doi.org/10.5281/zenodo.3967680)
+
+**M.R. Fitzsimmons** and T.R. Charlton, _Tools to perform data reduction of time-of-flight data taken on BL4A (MagRef)—a Jupyter notebook approach (2020)_[https://doi.org/10.5281/zenodo.3968838](https://doi.org/10.5281/zenodo.3968838)
+
+M.R. Fitzsimmons
+
 31.07.20
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3968838.svg)](https://doi.org/10.5281/zenodo.3968838)
 
 
