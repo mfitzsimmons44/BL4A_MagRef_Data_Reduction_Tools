@@ -90,10 +90,35 @@ M.R. Fitzsimmons
 
 31.07.20
 
+Version 3 of Modules 2, 3, and 4 were updated as follows:
+
+- Improved Python coding (at least for me)
+- Improved graphics
+- Module 2 is suitable for 30 or 60 Hz data collection and is capable of processing individual files or multiple files that are summed together into one product. Note Module 2 assumes that when combining multiple files, the data were collected under identical conditions of field, temperature, instrument configuration etc.
+- The ability to process event mode data was removed from Module 3. In other words event mode data in TOF space are mapped along contours of constant Q to specific Q-bins. If this capability is desired use Version 2 code for Module 3.
+- Module 4 assumes that within a single file, the Q's are identical for all cross-sections (not a change from previous versions, just not previously discussed)
+- For Module 4: if no overlap is found between two angle settings, a warning is written to the Notebook and the measurements at the maximum Q for the first file and minimum Q for the second file are scaled to have the same reflectivity.
+- For Module 4: remember that the file listing needs to consist of data with progressively increasing values of Qmin.
+- The modules check for a particular directory structure and if not present create the sub-directory structure.
+
+The 28241 directory is an example of the modules applied to data taken with an _unpolarized_ neutron beam.
+
+The 27527 directory is an example of the modules applied to data taken with a _polarized_ beam (no polarization analysis). Refer elsewhere on the GitHub site for applications of the code to data acquired with polarization analysis.
+
+The polarization and flipper efficiencies file (Efficiencies.npz) must reside in the same directory as Module2. The file of June 15, 2020 is unique to data collected on BL4A. The Jupyter Notebook "Efficiencies" will produce the Efficiencies.npz file.
+
+The Codes directory contains copies of the codes and the efficiency file. These should be copied and used elsewhere.
+
+Michael Fitzsimmons
+
+03Dec23
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3968838.svg)](https://doi.org/10.5281/zenodo.3968838)
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4568483.svg)](https://doi.org/10.5281/zenodo.4568483)
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7394824.svg)](https://doi.org/10.5281/zenodo.7394824)
 
 
